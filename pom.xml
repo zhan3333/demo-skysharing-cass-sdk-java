@@ -29,4 +29,15 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
     </properties>
+    <repositories>
+        <repository>
+            <id>codehausSnapshots</id>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <url>http://snapshots.maven.codehaus.org/maven2</url>
+        </repository>
+    </repositories>
 </project>
